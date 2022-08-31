@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="it">
+     <head>
+          <title>ἔκϕρασις</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+          <link rel="stylesheet" href="ekphrasis.css">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+     </head>
+     <body>
+          <header>
+               <div class="container">
+                    <div class="row testa">
+                         <div class="col-3 d-flex align-items-center first-leaf">
+                              <i class="bi bi-book" style="font-size: 3rem; color: #d9ffb3;"></i>
+                              <i class="bi bi-arrow-left-right" style="font-size: 2.5rem; color: #d9ffb3;"></i>
+                              <i class="bi bi-brush" style="font-size: 3rem; color: #d9ffb3;"></i>
+                         </div>
+                         <div class="col-1"></div>
+                         <div class="col-4 d-flex align-items-md-center justify-content-md-center text-center">
+                              <div class="titolo">
+                                   <h1>Ἔκφρασις</h1>
+                                   <h3 class="title-italic">Ekphrasis</h3>
+                              </div>
+                         </div> 
+                         <div class="col-1"></div>             
+                         <div class="col-3 d-flex align-items-center second-leaf">
+                              <i class="bi bi-book" style="font-size: 3rem; color: #d9ffb3;"></i>
+                              <i class="bi bi-arrow-left-right" style="font-size: 2.5rem; color: #d9ffb3;"></i>
+                              <i class="bi bi-brush" style="font-size: 3rem; color: #d9ffb3;"></i>
+                         </div>
+                    </div>
+                    <div class="col-1"></div>
+               </div>
+          </header>
+          <nav class="navbar navbar-expand-lg bg-light navigazione sticky-top">
+               <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"><i class="bi bi-justify toggolo"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                         <div class="col-md-10">
+                            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                              <li class="nav-item foglia">
+                                   <a class="nav-link" href="#" role="button" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-house-door" viewBox="0 0 16 16">
+                                   <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                                   </svg>  Home</a>
+                              </li>
+                              <li class="nav-item foglia">
+                                   <a class="nav-link" href="#" role="button" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
+                                   <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
+                                   <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
+                                   </svg>Studi</a>
+                              </li>
+                              <li class="nav-item dropdown foglia">
+                                   <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="periodi.html" role="button" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem" fill="currentColor" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                                   <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2h-7zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48V8.35zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z"/>
+                                   </svg>Periodi</a>
+                                   <ul class="dropdown-menu contenitore">
+                                        <li><a class="dropdown-item" href="periodi.html">Linea del tempo</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#">Arcaico</a></li>
+                                        <li><a class="dropdown-item" href="#">Classico</a></li>
+                                        <li><a class="dropdown-item" href="#">Ellenistico</a></li>
+                                        <li><a class="dropdown-item" href="#">Bizantino</a></li>
+                                   </ul>
+                              </li>
+                              <li class="nav-item dropdown foglia attivazione">
+                                   <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="bi bi-book"></i><i class="bi bi-arrow-left-right"></i><i class="bi bi-brush"></i>
+                                        L'ekphrasis</a>
+                                   <ul class="dropdown-menu contenitore">
+                                        <li class="attivazione"><a class="dropdown-item" href="testo-oggetto.html" target="blank"><i class="bi bi-book"></i><i class="bi bi-arrow-right"></i><i class="bi bi-brush"></i><span class="margine-icona">Dal testo all'oggetto</span></a></li>
+                                        <li><a class="dropdown-item" href="#"><i class="bi bi-brush"></i><i class="bi bi-arrow-right"></i><i class="bi bi-book"></i><span class="margine-icona"></i>Dall'oggetto al testo</span></a></li>
+                                   </ul>
+                              </li>
+                            </ul>
+                         </div>
+                         <div class="col-md-2">
+                              <form class="d-flex justify-content-md-center align-self-md-center text-center" role="search">
+                                   <button class="btn btn-outline-success foglia" type="submit" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-search"></i></button>
+                                   <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </nav>
+          <section class="poema">
+               <div class="row">
+                    <nav aria-label="breadcrumb ligreen text-center">
+                         <ol class="breadcrumb ligreen pt-3">
+                              <li class="breadcrumb-item"><a href="ekphrasis.html">Home</a></li>
+                              <li class="breadcrumb-item active" aria-current="page"><a href="testo-oggetto.html"><i class="bi bi-book"></i><i class="bi bi-arrow-right"></i><i class="bi bi-brush"></i> Dal testo all'oggetto</a></li>
+                              <li class="breadcrumb-item active" aria-current="page">Scudo di Eracle</li>        
+                         </ol>                         
+                    </nav>
+               </div>    
+               <div class="row py-2">
+                    <div class="col-1"></div>
+                    <div class="col-9">
+                         <div class="just">
+                         <h3 class="main-title text-center py-5">Scudo di Eracle &#40;Ἀσπίς&#41;, vv.139-231</h3>
+                         <p>Il seguente brano riporta l'<em>ekphrasis</em> integrale dello scudo di Eracle tratta dall'omonimo poema rapsodico, falsamente attribuito a Esiodo e formatosi tra la fine del VII e l'inizio del VI secolo. Poco prima dello scontro tra Eracle e il mostruoso bandito Cicno, figlio di Ares, la narrazione epica si interrompe per lasciare spazio alla descrizione del magico scudo di Eracle, forgiato da Efesto.</p>
+                         <p> Su di esso sono descritte decorazioni generiche &#40;dodici serpenti, personificazioni della Paura e della Discordia, cinghiali in lotta con leoni &#41;, scene di vita quotidiana &#40;due città in guerra, matrimoni, danze e giochi sportivi&#41;, e due scene tratte dal patrimonio mitologico &#40;Perseo in fuga dalle Gorgoni e Centauri contro Lapiti&#41;, aventi entrambe come oggetto un combattimento tra eroi e mostri, proprio come quello tra Eracle e Cicno stessi.</p>
+                         </div>
+                         <hr>
+                         <div class="row pt-5">
+                              <div class="col-1"></div>
+                              <div class="col-5 gc">
+                                   <p>Χερσί γε μὴν σάκος εἷλε παναίολον, οὐδέ τις αὐτὸ<br>
+                                       οὔτ’ ἔρρηξε βαλὼν οὔτ’ ἔθλασε, θαῦμα ἰδέσθαι.    140<br>
+                  πᾶν μὲν γὰρ κύκλῳ τιτάνῳ λευκῷ τ’ ἐλέφαντι<br>
+                  ἠλέκτρῳ θ’ ὑπολαμπὲς ἔην χρυσῷ τε φαεινῷ<br>
+                  λαμπόμενον, κυάνου δὲ διὰ πτύχες ἠλήλαντο.<br>
+               </p>
+               <p>ἐν μέσσῳ δ’ ἀδάμαντος ἔην Φόβος οὔ τι φατειός,<br>
+                  ἔμπαλιν ὄσσοισιν πυρὶ λαμπομένοισι δεδορκώς·    145<br>
+                  τοῦ καὶ ὀδόντων μὲν πλῆτο στόμα λευκαθεόντων,<br>
+                  δεινῶν, ἀπλήτων, ἐπὶ δὲ βλοσυροῖο μετώπου<br>
+                  δεινὴ Ἔρις πεπότητο κορύσσουσα κλόνον ἀνδρῶν,<br>
+                  σχετλίη, ἥ ῥα νόον τε καὶ ἐκ φρένας εἵλετο φωτῶν<br>
+                  οἵτινες ἀντιβίην πόλεμον Διὸς υἷι φέροιεν.   150<br>            
+                  τῶν καὶ ψυχαὶ μὲν χθόνα δύνουσ’ Ἄιδος εἴσω<br>
+                  αὐτῶν, ὀστέα δέ σφι περὶ ῥινοῖο σαπείσης<br>
+                  Σειρίου ἀζαλέοιο κελαινῇ πύθεται αἴῃ.<br>
+               </p>
+               <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/macm.jpg" class="riferimenti">Ἐν δὲ Προΐωξίς τε Παλίωξίς τε τέτυκτο,<br>
+                  ἐν δ’ Ὅμαδός τε Φόνος τ’ Ἀνδροκτασίη τε δεδήει,   155<br>
+                  ἐν δ’ Ἔρις, ἐν δὲ Κυδοιμὸς ἐθύνεον, ἐν δ’ ὀλοὴ Κὴρ<br>
+                  ἄλλον ζωὸν ἔχουσα νεούτατον, ἄλλον ἄουτον,<br>
+                  ἄλλον τεθνηῶτα κατὰ μόθον ἕλκε ποδοῖιν·<br>
+                  εἷμα δ’ ἔχ’ ἀμφ’ ὤμοισι δαφοινεὸν αἵματι φωτῶν,<br>
+                  δεινὸν δερκομένη καναχῇσί τε βεβρυχυῖα.   160<i class="bi bi-brush lg"></i></a><br>
+               </p>   
+               <p>Ἐν δ’ ὀφίων κεφαλαὶ δεινῶν ἔσαν, οὔ τι φατειῶν,<br>
+                  δώδεκα, ταὶ φοβέεσκον ἐπὶ χθονὶ φῦλ’ ἀνθρώπων<br>
+                  οἵτινες ἀντιβίην πόλεμον Διὸς υἷι φέροιεν.<br>
+                  τῶν καὶ ὀδόντων μὲν καναχὴ πέλεν, εὖτε μάχοιτο<br>
+                  Ἀμφιτρυωνιάδης· τὰ δ’ ἐδαίετο θαυματὰ ἔργα·   165<br>
+                  στίγματα δ’ ὣς ἐπέφαντο ἰδεῖν δεινοῖσι δράκουσι·<br>
+                  κυάνεοι κατὰ νῶτα, μελάνθησαν δὲ γένεια.<br>
+               </p>
+               <p>
+                  Ἐν δὲ συῶν ἀγέλαι χλούνων ἔσαν ἠδὲ λεόντων<br>
+                  ἐς σφέας δερκομένων, κοτεόντων θ’ ἱεμένων τε.<br>
+                  τῶν καὶ ὁμιληδὸν στίχες ἤισαν, οὐδέ νυ τώ γε   170<br>
+                  οὐδέτεροι τρεέτην, φρῖσσόν γε μὲν αὐχένας ἄμφω. <br>
+                  ἤδη γάρ σφιν ἔκειτο μέγας λῖς, ἀμφὶ δὲ κάπροι<br>
+                  δοιοί, ἀπουράμενοι ψυχάς· κατὰ δέ σφι κελαινὸν<br>
+                  αἷμ’ ἀπελείβετ’ ἔραζ’· οἳ δ’ αὐχένας ἐξεριπόντες<br>
+                  κείατο τεθνηῶτες ὑπὸ βλοσυροῖσι λέουσιν·   175<br>
+                  τοὶ δ’ ἔτι μᾶλλον ἐγειρέσθην κοτέοντε μάχεσθαι,<br>
+                  ἀμφότεροι, χλοῦναί τε σύες χαροποί τε λέοντες.<br>
+               </p>
+               <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/centauri-eracle.jpg" class="riferimenti">
+                  Ἐν δ’ ἦν ὑσμίνη Λαπιθάων αἰχμητάων<br> 
+                  Καινέα τ’ ἀμφὶ ἄνακτα Δρύαντά τε Πειρίθοόν τε<br>
+                  Ὁπλέα τ’ Ἐξάδιόν τε Φάληρόν τε Πρόλοχόν τε    180<br>
+                  Μόψον τ’ Ἀμπυκίδην, Τιταρήσιον, ὄζον Ἄρηος<br>
+                  Θησέα τ’ Αἰγεΐδην, ἐπιείκελον ἀθανάτοισιν·<br>
+                  ἀργύρεοι, χρύσεια περὶ χροῒ τεύχε’ ἔχοντες.<br>
+                  Κένταυροι δ’ ἑτέρωθεν ἐναντίοι ἠγερέθοντο<br>
+                  ἀμφὶ μέγαν Πετραῖον ἰδ’ Ἄσβολον οἰωνιστὴν   185<br>
+                  Ἄρκτον τ’ Οὔρειόν τε μελαγχαίτην τε Μίμαντα<br>
+                  καὶ δύο Πευκεΐδας, Περιμήδεά τε Δρύαλόν τε,<br>
+                  ἀργύρεοι, χρυσέας ἐλάτας ἐν χερσὶν ἔχοντες.<br>
+                  καί τε συναΐγδην ὡς εἰ ζωοί περ ἐόντες<br>
+                  ἔγχεσιν ἠδ’ ἐλάτῃς αὐτοσχεδὸν ὠριγνῶντο.   190<i class="bi bi-brush lg"></i></a><br>
+               </p>
+               <p>Ἐν δ’Ἄρεος βλοσυροῖο ποδώκεες ἕστασαν ἵπποι<br>
+                  χρύσεοι, ἐν δὲ καὶ αὐτὸς ἐναρσφόρος οὔλιος Ἄρης,<br>
+                  αἰχμὴν ἐν χείρεσσιν ἔχων, πρυλέεσσι κελεύων,<br>
+                  αἵματι φοινικόεις ὡς εἰ ζωοὺς ἐναρίζων,<br>
+                  δίφρου ἐπεμβεβαώς· παρὰ δὲ Δεῖμός τε Φόβος τε    195<br>
+                  ἕστασαν ἱέμενοι πόλεμον καταδύμεναι ἀνδρῶν.<br>
+                  Ἐν δὲ Διὸς θυγάτηρ ἀγελείη Τριτογένεια,<br>
+                  τῇ ἰκέλη ὡς εἴ τε μάχην ἐθέλουσα κορύσσειν,<br>
+                  ἔγχος ἔχουσ’ ἐν χειρὶ χρυσέην τε τρυφάλειαν<br>
+                  αἰγίδα τ’ ἀμφ’ ὤμοις· ἐπὶ δ’ ᾤχετο φύλοπιν αἰνήν.   200<br>
+                  Ἐν δ’ ἦν ἀθανάτων ἱερὸς χορός· ἐν δ’ ἄρα μέσσῳ<br>
+                  ἱμερόεν κιθάριζε Διὸς καὶ Λητοῦς υἱὸς<br>
+                  χρυσείῃ φόρμιγγι· θεῶν δ’ ἕδος ἁγνὸς Ὄλυμπος·<br>
+                  ἐν δ’ ἀγορή, περὶ δ’ ὄλβος ἀπείριτος ἐστεφάνωτο<br>
+                  ἀθανάτων ἐν ἀγῶνι· θεαὶ δ’ ἐξῆρχον ἀοιδῆς   205<br>
+                  Μοῦσαι Πιερίδες, λιγὺ μελπομένῃς ἐικυῖαι.<br>
+               </p>
+               <p>Ἐν δὲ λιμὴν εὔορμος ἀμαιμακέτοιο θαλάσσης<br>
+                  κυκλοτερὴς ἐτέτυκτο πανέφθου κασσιτέροιο<br>
+                  κλυζομένῳ ἴκελος· πολλοί γε μὲν ἂμ μέσον αὐτοῦ<br>
+                  δελφῖνες τῇ καὶ τῇ ἐθύνεον ἰχθυάοντες    210<br>
+                  νηχομένοις ἴκελοι· δοιὼ δ’ ἀναφυσιόωντες<br>
+                  ἀργύρεοι δελφῖνες ἐφοίβεον ἔλλοπας ἰχθῦς.<br>
+                  τῶν δ’ ὕπο χάλκειοι τρέον ἰχθύες· αὐτὰρ ἐπ’ ἀκτῆς<br>
+                  ἧστο ἀνὴρ ἁλιεὺς δεδοκημένος, εἶχε δὲ χερσὶν<br>
+                  ἰχθύσιν ἀμφίβληστρον ἀπορρίψοντι ἐοικώς.   215<br>
+               </p>
+               <p>Ἐν δ’ἦν ἠυκόμου Δανάης τέκος, ἱππότα Περσεύς,<br>
+                  οὔτ’ ἄρ’ ἐπιψαύων σάκεος ποσὶν οὔθ’ ἑκὰς αὐτοῦ,<br>
+                  θαῦμα μέγα φράσσασθ’, ἐπεὶ οὐδαμῇ ἐστήρικτο.<br>
+                  τὼς γάρ μιν παλάμαις τεῦξεν κλυτὸς Ἀμφιγυήεις,<br>
+                  χρύσεον· ἀμφὶ δὲ ποσσὶν ἔχεν πτερόεντα πέδιλα·    220<br>
+                  ὤμοισιν δέ μιν ἀμφὶ μελάνδετον ἆορ ἔκειτο<br>
+                  χαλκέου ἐκ τελαμῶνος· ὃ δ’ ὥς τε νόημ’ ἐποτᾶτο·<br>
+               <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/prosternopidion-lg.png" class="riferimenti">
+                  πᾶν δὲ μετάφρενον εἶχε κάρη δεινοῖο πελώρου,<br>
+                  Γοργοῦς· ἀμφὶ δέ μιν κίβισις θέε, θαῦμα ἰδέσθαι,<br>
+                  ἀργυρέη· θύσανοι δὲ κατῃωρεῦντο φαεινοὶ   225<br>
+                  χρύσειοι· δεινὴ δὲ περὶ κροτάφοισι ἄνακτος<br>
+                  κεῖτ’ Ἄιδος κυνέη νυκτὸς ζόφον αἰνὸν ἔχουσα.<br>
+                  αὐτὸς δὲ σπεύδοντι καὶ ἐρρίγοντι ἐοικὼς<br>
+                  Περσεὺς Δαναΐδης ἐτιταίνετο· ταὶ δὲ μετ’ αὐτὸν<i class="bi bi-brush lg"></i></a></p>
+               <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/eleusis.jpg" class="riferimenti">   
+                  Γοργόνες ἄπλητοί τε καὶ οὐ φαταὶ ἐρρώοντο    230<br>
+                  ἱέμεναι μαπέειν· ἐπὶ δὲ χλωροῦ ἀδάμαντος<br>
+                  βαινουσέων ἰάχεσκε σάκος μεγάλῳ ὀρυμαγδῷ<br>
+                  ὀξέα καὶ λιγέως· ἐπὶ δὲ ζώνῃσι δράκοντε<br>
+                  δοιὼ ἀπῃωρεῦντ’ ἐπικυρτώοντε κάρηνα·<br>
+                  λίχμαζον δ’ ἄρα τώ γε, μένει δ’ ἐχάρασσον ὀδόντας   235<br>
+                  ἄγρια δερκομένω· ἐπὶ δὲ δεινοῖσι καρήνοις<br>
+                  Γοργείοις ἐδονεῖτο μέγας φόβος.οἳ δ’ ὑπὲρ αὐτέων<i class="bi bi-brush lg"></i></a></p>
+               </p>
+               <p>ἄνδρες ἐμαρνάσθην πολεμήια τεύχε’ ἔχοντες,<br>
+                  τοὶ μὲν ὑπὲρ σφετέρης πόλιος σφετέρων τε τοκήων<br>
+                  λοιγὸν ἀμύνοντες, τοὶ δὲ πραθέειν μεμαῶτες.   240<br>
+                  πολλοὶ μὲν κέατο, πλέονες δ’ ἔτι δῆριν ἔχοντες<br>
+                  μάρνανθ’. αἱ δὲ γυναῖκες ἐυδμήτων ἐπὶ πύργων<br> 
+                  χαλκέων ὀξὺ βόων, κατὰ δ’ ἐδρύπτοντο παρειάς,<br>
+                  ζωῇσιν ἴκελαι, ἔργα κλυτοῦ Ἡφαίστοιο.<br>
+                  ἄνδρες δ’ οἳ πρεσβῆες ἔσαν γῆράς τε μέμαρπεν   245<br>
+                  ἀθρόοι ἔκτοσθεν πυλέων ἔσαν, ἂν δὲ θεοῖσι<br>
+                  χεῖρας ἔχον μακάρεσσι, περὶ σφετέροισι τέκεσσι<br>
+                  δειδιότες· τοὶ δ’ αὖτε μάχην ἔχον. αἳ δὲ μετ’ αὐτοὺς<br>
+                  Κῆρες κυάνεαι, λευκοὺς ἀραβεῦσαι ὀδόντας,<br>
+                  δεινωποὶ βλοσυροί τε δαφοινοί τ’ ἄπλητοί τε    250<br>
+                  δῆριν ἔχον περὶ πιπτόντων· πᾶσαι δ’ ἄρ’ ἵεντο<br>
+                  αἷμα μέλαν πιέειν· ὃν δὲ πρῶτον μεμάποιεν<br>
+                  κείμενον ἢ πίπτοντα νεούτατον, ἀμφὶ μὲν αὐτῷ<br>
+                  βάλλον ὁμῶς ὄνυχας μεγάλους, ψυχὴ δὲ [Ἄιδόσδε] κατῇεν<br>
+                  Τάρταρον ἐς κρυόενθ’· αἳ δὲ φρένας εὖτ’ ἀρέσαντο   255<br>
+                  αἵματος ἀνδρομέου, τὸν μὲν ῥίπτασκον ὀπίσσω,<br>
+                  ἂψ δ’ ὅμαδον καὶ μῶλον ἐθύνεον αὖτις ἰοῦσαι.<br>
+                  Κλωθὼ καὶ Λάχεσίς σφιν ἐφέστασαν· ἣ μὲν ὑφήσσων<br>
+                  Ἄτροπος οὔ τι πέλεν μεγάλη θεός, ἀλλ’ ἄρα ἥ γε<br>
+                  τῶν γε μὲν ἀλλάων προφερής τ’ ἦν πρεσβυτάτη τε.    260<br>
+                  πᾶσαι δ’ ἀμφ’ ἑνὶ φωτὶ μάχην δριμεῖαν ἔθεντο·<br>
+                  δεινὰ δ’ ἐς ἀλλήλας δράκον ὄμμασι θυμήνασαι,<br>
+                  ἐν δ’ ὄνυχας χεῖράς τε θρασείας ἰσώσαντο. <br>
+                  πὰρ δ’ Ἀχλὺς εἱστήκει ἐπισμυγερή τε καὶ αἰνή,<br>
+                  χλωρὴ ἀυσταλέη λιμῷ καταπεπτηυῖα,    265<br>
+                  γουνοπαχής, μακροὶ δ’ ὄνυχες χείρεσσιν ὑπῆσαν·<br>
+                  τῆς ἐκ μὲν ῥινῶν μύξαι ῥέον, ἐκ δὲ παρειῶν<br>
+                  αἷμ’ ἀπελείβετ’ ἔραζ’· ἣ δ’ ἄπλητον σεσαρυῖα<br>
+                  εἱστήκει, πολλὴ δὲ κόνις κατενήνοθεν ὤμους,<br>
+                  δάκρυσι μυδαλέη. παρὰ δ’ εὔπυργος πόλις ἀνδρῶν,<br>    270
+                  χρύσειαι δέ μιν εἶχον ὑπερθυρίοις ἀραρυῖαι<br>
+                  ἑπτὰ πύλαι· τοὶ δ’ ἄνδρες ἐν ἀγλαΐαις τε χοροῖς τε<br>
+                  τέρψιν ἔχον·τοὶ μὲν γὰρ ἐυσσώτρου ἐπ’ ἀπήνης
+               </p>
+               <p>ἤγοντ’ ἀνδρὶ γυναῖκα, πολὺς δ’ ὑμέναιος ὀρώρει·<br>
+                  τῆλε δ’ ἀπ’ αἰθομένων δαΐδων σέλας εἰλύφαζε   275<br>
+                  χερσὶν ἐνὶ δμῳῶν· ταὶ δ’ ἀγλαΐῃ τεθαλυῖαι<br>
+                  πρόσθ’ ἔκιον, τῇσιν δὲ χοροὶ παίζοντες ἕποντο·<br>
+                  τοὶ μὲν ὑπὸ λιγυρῶν συρίγγων ἵεσαν αὐδὴν<br>
+                  ἐξ ἁπαλῶν στομάτων, περὶ δέ σφισιν ἄγνυτο ἠχώ·<br>
+                  αἳ δ’ ὑπὸ φορμίγγων ἄναγον χορὸν ἱμερόεντα.    280<br>
+                  ἔνθεν δ’ αὖθ’ ἑτέρωθε νέοι κώμαζον ὑπ’ αὐλοῦ.<br>
+                  τοί γε μὲν αὖ παίζοντες ὑπ’ ὀρχηθμῷ καὶ ἀοιδῇ<br>
+                  τοί γε μὲν αὖ γελόωντες ὑπ’ αὐλητῆρι ἕκαστος<br>
+                  πρόσθ’ ἔκιον· πᾶσαν δὲ πόλιν θαλίαι τε χοροί τε<br>
+                  ἀγλαΐαι τ’ εἶχον. τοὶ δ’ αὖ προπάροιθε πόληος    285<br>
+                  νῶθ’ ἵππων ἐπιβάντες ἐθύνεον. οἱ δ’ ἀροτῆρες<br>
+                  ἤρεικον χθόνα δῖαν, ἐπιστολάδην δὲ χιτῶνας<br>
+                  ἐστάλατ’. αὐτὰρ ἔην βαθὺ λήιον· οἵ γε μὲν ἤμων<br>
+                  αἰχμῇς ὀξείῃσι κορωνιόωντα πέτηλα<br>
+                  βριθόμενα σταχύων, ὡς εἰ Δημήτερος ἀκτήν·    290<br>
+                  οἳ δ’ ἄρ’ ἐν ἐλλεδανοῖσι δέον καὶ ἔπιτνον ἀλωῇ·<br>
+                  οἳ δ’ ἐτρύγων οἴνας, δρεπάνας ἐν χερσὶν ἔχοντες·<br>
+                  οἳ δ’ αὖτ’ ἐς ταλάρους ἐφόρευν ὑπὸ τρυγητήρων<br>
+                  λευκοὺς καὶ μέλανας βότρυας μεγάλων ἀπὸ ὄρχων,<br>
+                  βριθομένων φύλλοισι καὶ ἀργυρέῃς ἑλίκεσσιν.   295<br>
+                  οἳ δ’ αὖτ’ ἐς ταλάρους ἐφόρευν. παρὰ δέ σφισιν ὄρχος<br>
+                  χρύσεος ἦν, κλυτὰ ἔργα περίφρονος Ἡφαίστοιο,<br>
+                  τοί γε μὲν αὖ παίζοντες ὑπ’ αὐλητῆρι ἕκαστος]<br>
+                  σειόμενος φύλλοισι καὶ ἀργυρέῃσι κάμαξι,<br>
+                  βριθόμενος σταφυλῇσι· μελάνθησάν γε μὲν αἵδε. 300<br>       
+                  οἵ γε μὲν ἐτράπεον, τοὶ δ’ ἤρυον. οἳ δὲ μάχοντο<br>
+                  πύξ τε καὶ ἑλκηδόν· τοὶ δ’ ὠκύποδας λαγὸς ᾕρευν<br>
+                  ἄνδρες θηρευταί, καὶ καρχαρόδοντε κύνε πρό,<br>
+                  ἱέμενοι μαπέειν, οἳ δ’ ἱέμενοι ὑπαλύξαι.<br>
+                  πὰρ δ’ αὐτοῖς ἱππῆες ἔχον πόνον, ἀμφὶ δ’ ἀέθλῳ    305<br>
+                  δῆριν ἔχον καὶ μόχθον· ἐυπλεκέων δ’ ἐπὶ δίφρων<br>
+                  ἡνίοχοι βεβαῶτες ἐφίεσαν ὠκέας ἵππους<br>
+                  ῥυτὰ χαλαίνοντες, τὰ δ’ ἐπικροτέοντα πέτοντο<br>
+                  ἅρματα κολλήεντ’, ἐπὶ δὲ πλῆμναι μέγ’ ἀύτευν.<br>
+                  οἳ μὲν ἄρ’ ἀίδιον εἶχον πόνον, οὐδέ ποτέ σφιν     310<br>
+                  νίκη ἐπηνύσθη, ἀλλ’ ἄκριτον εἶχον ἄεθλον.<br>
+                  τοῖσι δὲ καὶ προύκειτο μέγας τρίπος ἐντὸς ἀγῶνος,<br>
+                  χρύσειος, κλυτὰ ἔργα περίφρονος Ἡφαίστοιο.<br>
+               </p>
+               <p>Ἀμφὶ δ’ ἴτυν ῥέεν Ὠκεανὸς πλήθοντι ἐοικώς,<br>
+                  πᾶν δὲ συνεῖχε σάκος πολυδαίδαλον· οἳ δὲ κατ’ αὐτὸν    315<br>
+                  κύκνοι ἀερσιπόται μεγάλ’ ἤπυον, οἵ ῥά τε πολλοὶ<br>
+                  νῆχον ἐπ’ ἄκρον ὕδωρ· παρὰ δ’ ἰχθύες ἐκλονέοντο·<br>
+               </p>
+               <p>θαῦμα ἰδεῖν καὶ Ζηνὶ βαρυκτύπῳ, οὗ διὰ βουλὰς<br>
+                  Ἥφαιστος ποίησε σάκος μέγα τε στιβαρόν τε,<br>
+                  αρσάμενος παλάμῃσι. τὸ μὲν Διὸς ἄλκιμος υἱὸς   320<br>
+                  πάλλεν ἐπικρατέως· ἐπὶ δ’ ἱππείου θόρε δίφρου,<br>
+                  εἴκελος ἀστεροπῇ πατρὸς Διὸς αἰγιόχοιο,<br>
+                  κοῦφα βιβάς· τῷ δ’ ἡνίοχος κρατερὸς Ἰόλαος<br>
+                  δίφρου ἐπεμβεβαὼς ἰθύνετο καμπύλον ἅρμα.<br>
+               </p>
+               </div>
+               <div class="col-6">
+                    <div class="trad">
+                    <p>Nelle mani lo scudo prese, tutto splendente: nessuno mai<br>
+                       avrebbe potuto spezzarlo colpendolo oppure infrangerlo, meraviglia a vedersi.    140<br>
+                       Infatti tutt'all'intorno di gesso e di bianco avorio<br>
+                       e di elettro era splendente, e di oro fulgente<br>
+                       riluceva, e fasce di smalto turchino lo attraversavano.<br>
+                    </p>
+                    <p>Nel mezzo c'era di un drago il terrore, indicibile,     <br>
+                       che indietro, con occhi lampeggianti di fuoco, guardava;     145<br>
+                       la sua bocca era piena di denti dal bianco bagliore,<br>
+                       enormi, terribili, e sopra la fronte torva<br>
+                       Eris tremenda svolazzava, che arma il tumulo degli uomini, <br>
+                       sciagurata, ella che toglie la mente e il senno ai mortali.<br>            
+                       che voglion portare la guerra al figlio di Zeus.    150<br>
+                       Di costoro le anime scendono sottoterra nell'Ade<br>
+                       mentre le loro ossa, con intorno la pelle che imputridisce,<br>
+                       nella stagione di Sirio che tutto dissecca si corrompono nella terra nera.<br>
+                    <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/macm.jpg" class="riferimenti">
+                       Qui era scolpito Proioxis e Palioxis,<br>
+                       e Omados assieme a Phonos e a Androctasie vi ardeva;     155<br>   
+                       e vi infuriavano Eris e Kydoimos insieme a Ker funesta<br>
+                       che teneva un uomo da poco colpito, un altro ancora illeso,<br>
+                       un altro, morto, trascinava per i piedi attraverso il tumulto,<br>
+                       e una veste sulle spalle portava, cruenta di sangue umano,<br>
+                       guardando terribile e strepitava con grande fragore.     160<i class="bi bi-brush lg"></i></a><br>
+                    </p>   
+                    <p>C'erano teste di serpenti tremendi, indicibili,<br>
+                       dodici, che atterrivano sulla terra le stirpi degli uomini,<br>
+                       quelli che vogliono portare la guerra al figlio di Zeus.<br>
+                       Dai loro denti veniva stridore, quando combatteva<br>
+                       il figlio di Anfitrione splendevano le opere meravigliose ;   165<br>
+                       come delle macchie appraivano, a guardarsi, sui serpenti terribili :<br>
+                       turchini sul dorso, nereggiavano invece le mascelle.<br>
+                    </p>
+                    <p>
+                       C'erano branchi di cinghiali selvaggi e di leoni<br>
+                       che si fissavano, infuriati e irruenti.<br>
+                       le loro torme muovevano insieme, nè gli uni   170<br>
+                       avevan paura degli altri, ma gli uni e gli altri drizzavano i peli sul collo.<br>
+                       Già, infatti, un gran leone giaceva tra loro e, attorno, due cinghiali,<br>
+                       privi di vita, e da loro il nero<br>
+                       sangue gocciolava per terra; essi, col collo spezzato,<br>
+                       giacevano morti sotto i leoni feroci.   175<br>
+                       Ancor più erano spinti a combattere, pieni di furia,<br>
+                       gli uni e gli altri, i cinghiali selvaggi e i leoni dagli occhi ardenti.<br>
+                    </p>
+                    <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/centauri-eracle.jpg" class="riferimenti">
+                       C'era scolptia la battaglia dei Lapiti armati di lancia<br> 
+                       attorno al sovrano Ceneo e a Driante e a Piritoo<br>
+                       e ad Opleo, ad Exadio, a Falero e a Prolocho    180<br>
+                       a Mopso figlio di Ampyce, Titaresio, rampollo di Ares<br>
+                       e a Teseo, figlio di Egeo, simile agli immortali :<br>
+                       fatti d'argento, e attorno al corpo avevano auree armature.<br>
+                       I Centauri dall'altra parte erano schierati contro di loro<br>
+                       attorno al grande Petreo e ad Asbolo augure   185<br>
+                       ad Arcto e ad Ureio e a Mimante dalla nera chioma<br>
+                       e ai due figli di Peuceo, Perimede e Dryalo<br>
+                       fatti d'argento, e aurei tronchi d'abete avevano in mano,<br>
+                       e con impeto, come fossero vivi,<br>
+                       con lance ed abeti si lanciavano insieme.   190<i class="bi bi-brush lg"></i></a><br>
+                    </p>
+                    <p>E d'Ares veloce c'erano i cavalli dai piedi veloci<br>
+                       fatti d'oro, e c'era anche Ares stesso, funesto predatore di spoglie,<br>
+                       che teneva in mano un dardo ed incitava i soldati,<br>
+                       rosso di sangue, come se veramente avesse ucciso degli uomini.<br>
+                       montato sul carro; accanto a lui Deimos e Phobos    195<br>
+                       stavano, desiderosi di immergersi nella guerra degli uomini.<br>
+                       C'era la figlia di Zeus, la Tritogenea predatrice di spoglie,,<br>
+                       simile ad una che desiderasse attaccare battaglia,<br>
+                       tenendo in mano la lancia e l'aureo elmo<br>
+                       e l'egida intorno alle spalle: procedeva verso la mischia tremenda.   200<br>
+                       C'era la sacra danza degli immortali: nel mezzo<br>
+                       dolcemente suonava il figlio di Zeus e di Latona<br>
+                       con l'aurea lira; la sede degli dèi era il sacro Olimpo<br>
+                       e c'era assemblea, intorno ricchezza infinita di beni faceva corona<br>
+                       nell'adunanza degli immortali; le dee iniziavano il canto,   205<br>
+                       le Muse della Pieria, e parevano cantare dolcemente.<br>
+                    </p>
+                    <p>C'era un porto, riparo dall'indomabile mare,<br>
+                       era fatto a cerchio, di stagno finissimo,<br>
+                       ed era come se ondeggiasse; in messo ad esso molti<br>
+                       delfini qua e là sguazzavano alla ricerca di pesci    210<br>
+                       e pareva nuotassero; soffiando l'acqua<br>
+                       due delfini d'argento spaventavano i muti pesci.<br>
+                       Sotto di loro, i pesci, di bronzo, fuggivano impauriti; sulla spiaggia<br>
+                       stava un pescatore, vigilante, ed aveva in mano<br>
+                       un giacchio da pesca e pareva volesse gettarlo   215<br>
+                    </p>
+                    <p>E c'era il figlio di Danae dalla bella chioma, Perseo cavaliere<br>
+                       il quale non tpccava lo scudo coi piedi né era lontano da esso,<br>
+                       meraviglia grande a vedersi: da nessuna parte poggiava.<br>
+                       Tale lo aveva fatto con le sue mani l'illustre Amfigiee,<br>
+                       tutto d'oro; ai piedi indossava alati calzari,    220<br>
+                       attorno agli omeri c'era una spada dalla nera guaina<br>
+                       che pendeva dal balteo di bronzo; lui come il pensiero volava;<br>
+                    <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/prosternopidion-lg.png" class="riferimenti">
+                       tutto il dorso lo copriva il capo di un terribile mostro,<br>
+                       la Gorgone, avvolto in un sacco, meraviglia a vedersi,<br>
+                       d'argento, e ne pendevano splendenti frange   225<br>
+                       auree; terribile attorno alle tempie del signore<br>
+                       c'era l'elmo di Ade che aveva l'orrenda tenebra della notte.<br>
+                       Come chi s'affretta e rabbridvidisce per l'orrore,<br>
+                       perseo, il figlio di Danae, era teso; dietro di lui<i class="bi bi-brush lg"></i></a></p>
+                    <p class="riferimenti"><i class="bi bi-brush lg"></i><a href="immagini-ekfrasis/Eracle/eleusis.jpg" class="riferimenti">   
+                       le Gorgoni tremende, indicibili, si slanciavano,    230<br>
+                       bramose di afferrarlo; sul livido adamante,<br>
+                       al loro avanzare, rimbombava lo scudo con grande fragore<br>
+                       acuto e stridente. Alle loro cinture due serpenti<br>
+                       stavan sospesi con le teste ricurve in avanti<br>
+                       saettavan la lingua e con furia digrignavano i denti   235<br>
+                       guardando selvaggi; e sulle terribili teste<br>
+                       delle Gorgoni s'agitava un grande terrore. Al di sopra di esse<i class="bi bi-brush lg"></i></a></p>
+                    <p>degli uomini combattevano indossando armi da guerra :<br>
+                       gli uni per la loro città e i loro figli,<br>
+                       cercando di allontanare l'eccidio; gli altri bramosi di saccheggiare.   240<br>
+                       Molti giacevano a terra, ma i più, sostenendo ancora la lotta,<br>
+                       combattevano; e le donne sulle torri ben fatte, di bronzo,<br> 
+                       mandavano alte grida e si laceravano le guance,<br>
+                       come se fossero vive, opera dell'inclito Efesto.<br>
+                       Gli uomini ch'erano anziani e che la vecchiaia aveva afferrato,   245<br>
+                       tutti insieme stavano fuori delle porte e agli dèi<br>
+                       beati tendevan le mani, per i loro figli<br>
+                       temendo; quelli sostenevano la battaglia. Dietro di loro<br>
+                       le nere kere, digrignando i bianchi denti,,<br>
+                       dallo sguardo terribile, orrende, insanguinate e repellenti   250<br>
+                       lottavano per quelli caduti perché tutte bramavano<br>
+                       di bere il nero sangue.  quello che per primo afferravano<br>
+                       o caduto a terra o mentre cadeva per ferita recente, su di lui<br>
+                       gettavano le grandi unghie, e l'anima scendeva<br>
+                       nel tartaro freddo; quando avevan saziato l'animo loro  255<br>
+                       del sangue umano, quello gettavano dietro a sé<br>
+                       e di nuovo nel tumulto e nella strage si lanciavano.<br>
+                       Cloto e Lachesi stavano sopra di loro; più in basso<br>
+                       Atropo, non era una grande dea, ma certamente<br>
+                       alle altre superiore e più anziana.    260<br>
+                       Tutte ingaggiavano una fiera lotta intorno ad un uomo solo<br>
+                       e si guardavano torve l'una con l'altra, infuriate,<br>
+                       e nell'usare le unghie e le mani feroci si pareggiavano. <br>
+                       accanto stava Achlus di morte, lugubre e orrida,<br>
+                       livida, raggrinzita, contratta dalla fame    265<br>
+                       con le ginocchia gonfie, con ernormi unghie alle mani.<br>
+                       Dal suo naso colava il muco e dalle guance<br>
+                       stillava sangue a terra: ella con un ghigno orrendo<br>
+                       stava, e molta polvere le copriva le spalle<br>
+                       era bagnata di lacrime. Accanto, una città di uomini, dalle belle torri   270<br>
+                       auree la chiudevano, munite di architravi,<br>
+                       sette porte; gli uomini nelle feste e nelle danze<br>
+                       godevano: alcuni, infatti, su un carro dalle belle ruote
+                    </p>
+                    <p>conducevano al marito la sposa, e un alto imeneo si levava.<br>
+                       Lontano roteava il fulgore delle fiaccole ardenti,   275<br>
+                       nelle mani delle serve; esse, fiorenti di bellezza,<br>
+                       andavano innanzi e a loro tenevano dietro cori scherzosi;<br>
+                       questi al suono di acute zampogne mandavano un canto<br>
+                       dalle tenere bocche, e accanto a loro si rifrangeva l'eco;<br>
+                       le fanciulle al suono della cetra guidavano l'amabile danza    280<br>
+                       Quindi ancora, in altra parte, dei giovani facevano festa al suono del flauto:<br>
+                       alcuni festanti danzando e cantando,<br>
+                       altri ridendo, ciascuno dietro ad un suonatore di flauto<br>
+                       andavano avanti; la città intera banchetti, danze<br>
+                       e feste occupavano. Altri poi, davanti alla città,    285<br>
+                       saliti in groppa ai cavalli galoppavano. Gli aratori<br>
+                       fendevano la terra divina, le vesti succinte<br>
+                       tenevano strette. Ancora c'era un campo ben coltivato; alcuni mietevano<br>
+                       con le falci affilate gli steli curvi,<br>
+                       piegati sotto le spighe, come fosse il grano di Demetra;    290<br>
+                       altri li legavano in covoni e li mettevano sull'aia.<br>
+                       Ed altri facevan vendemmia, tenendo in mano le roncole:<br>
+                       altri, poi, dai vendemmiatori portavano ai cesti<br>
+                       i grappoli bianchi e neri dai grandi filari,<br>
+                       carichi di pampini e di tralci argentei;   295<br>
+                       altri, poi, li portavano alle ceste. Presso di loro c'era una vigna<br>
+                       d'oro, splendida opera dell'esperto Efesto,<br>
+                       alcuni scherzando, ciascuno dietro ad un suonatore<br>
+                       mossa nelle foglie  enei pali d'argento,<br>
+                       carica di grappoli; e questi già nereggiavano. 300<br>       
+                       Alcuni pigiavano, altri attingevano il mosto. ma alcuni combattevano<br>
+                       con pugni e lottando; ed altri davan la caccia a lepri veloci,<br>
+                       cacciatori; davanti c'erano due cani dai denti aguzzi,<br>
+                       bramosi di ghermirle, ma quelle cercavano di mettersi in salvo.<br>
+                       presso di loro dei cavalieri facevano una gara e per il premio    305<br>
+                       sopportavano perna e fatica; stando sui carri ben connessi<br>
+                       gli aurighi incitavano i veloci cavalli<br>
+                       allentando le briglie; volavano alzando rumore<br>
+                       i cocchi ben connessi e i mozzi stridevano forte.<br>
+                       essi sopportavano una lunga fatica, né mai a loro     310<br>
+                       arrideva la vittoria: affrontavano una gara senz'esito.<br>
+                       Per loro veniva proposto un grande tripode dentro l'agone<br>
+                       d'oro, splendida opera dell'esperto Efesto.<br>
+                    </p>
+                    <p>Intorno al bordo scorreva Oceano, che pareva agitato,<br>
+                       ed abbracciava l'intero scudo ben lavorato; su di esso    315<br>
+                       cigni che volavano alti stridevano forte, e numerosi<br>
+                       volavano sulla superificie del mare; vicino guizzavano i pesci,<br>
+                    </p>
+                    <p>meraviglia a vedersi anche per Zeus.<br>
+                       Efesto aveva fatto lo scudo grande e robusto,<br>
+                       fabbricandolo con le sue mani. Questo, il prode figlio di Zeus   320<br>
+                       brandiva con forza; e balzò sul cocchio equestre<br>
+                       simile alla folgore dell'egìoco padre Zeus,<br>
+                       saltando leggero, mentre l'auriga, il forte Iolao,<br>
+                       salito sul cocchio gli guidava il carro ricurvo<br>
+                    </p>
+                    </div>     
+               </div>
+          </div>
+          <div class="row d-flex justify-content-sm-around">
+               <div class="col-md-1"></div>
+               <div class="col-md-4">
+                    <br>
+                    <br>
+                    <br>
+                    <h5>METADATI DELLA RISORSA</h5>
+                         <br>
+                         <br>
+                         <table>
+                              <tr>
+                                   <th>OPERA ED ESPRESSIONE</th>
+                                   <th></th>
+                                   <th>CONTROLLO AUTORITA'</th>
+                              </tr>
+                              <tr>
+                                   <td>TITOLO </td>
+                                   <td>Scudo di Eracle &#40;Ἀσπίς&#41;</td>
+                                   <td><p><a href="http://viaf.org/viaf/180802510" class="cdwa px-3">VIAF</a></p>
+                              </tr>
+                              <tr>
+                                   <td>creato Da</td>
+                                   <td>Pseudo-Esiodo</td>
+                                   <td><p><a href="http://viaf.org/viaf/749159234766403372706" class="cdwa px-3">VIAF</a></p>
+                              </tr>
+                              <tr>
+                                   <td>FORMA </td>
+                                   <td>epillio in esametri dattilici catalettici </td>
+                                   <td><p><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=23973" class="cdwa px-3">BNCF</a></p> 
+                              </tr>
+                              <tr>
+                                   <td>DATA</td>
+                                   <td>fine VII sec a.C-metà VI sec a.C cca</td>
+                                   <td><p><a href="http://id.loc.gov/authorities/classification/DF222.2" class="cdwa px-3">LCSH</a></p>
+                              </tr>
+                              <tr>
+                                   <td>CAR. DISTINTIVA</td>
+                                   <td>periodo arcaico, da non confondere con l'omonima commedia di Menandro, III sec a.C</td>
+                              </tr>
+                              <tr>
+                                   <td>PUBBLICO</td>
+                                   <td>pubblico generico, feste panelleniche; recitazioni rapsodiche</td>
+                              </tr>
+                              <tr>
+                                   <td>CONTESTO</td>
+                                   <td>recitazioni orali in occasioni pubbliche nella Grecia medio-arcaica</td>
+                                   <td><p><a href="http://id.loc.gov/authorities/subjects/sh85095251" class="cdwa px-3">LCSH</a></p>
+                              </tr>
+                              <tr>
+                                   <th class="text-center">MANIFESTAZIONE</th>
+                                   <th></th>
+                                   <th>CONTROLLO AUTORITA'</th>
+                              </tr>
+                              <tr>
+                                   <td>TITOLO</td>
+                                   <td>Esiodo, opere</td>
+                                   <td><p><a href="https://www.worldcat.org/it/title/799706489" class="cdwa px-3">WorldCat</a></p>
+                              </tr>
+                              <tr>
+                                   <td>DICH. DI RESPONSABILITA'</td>
+                                   <td>Graziano Arrighetti</td>
+                                   <td><p><a href="http://viaf.org/viaf/66490749" class="cdwa px-3">VIAF</a></p>
+                              </tr>
+                              <tr>
+                                   <td>LUOGO DI PUBBLICAZIONE</td>
+                                   <td>Milano</td>
+                                   <td><p><a href="https://www.geonames.org/3173435/milan.html" class="cdwa px-3">Geonames</a></p>
+                              </tr>
+                              <tr>
+                                   <td>EDITORE</td>
+                                   <td>A. Mondadori</td>
+                              </tr>
+                              <tr>
+                                   <td>DATA DI PUBBLICAZIONE</td>
+                                   <td>1998</td>
+                              </tr>
+                              <tr>
+                                   <td>ESTENSIONE</td>
+                                   <td>LXVI, 644pp; 18cm</td>
+                              </tr>
+                              <tr>
+                                   <td>MEDIUM FISICO</td>
+                                   <td>libro cartaceo</td>
+                              </tr>
+                              <tr>
+                                   <td>IDENTIFICATIVO</td>
+                                   <td>ISBN : 0489677</td>
+                                   <td><p><a href="http://id.sbn.it/bid/VIA0489677" class="cdwa px-3">OPAC</a></p>
+                              </tr>
+                              <tr>
+                                   <th class="text-center">ITEM</th>
+                                   <th></th>
+                                   <th>FORMA CONTROLLATA</th>
+                              </tr>
+                              <tr>
+                                   <td>IDENTIFICATIVO</td>
+                                   <td>PREST 881 HES</td>
+                              </tr>
+                              <tr>
+                                   <td>PROVENIENZA</td>
+                                   <td>Biblioteca Civica di Pordenone</td>
+                              </tr>
+                         </table> 
+                         <br>
+                         <br>
+                         <br>                                  
+                         <p><a href="ekphrasis-dc.xml" class="cdwa p-2 ml-3">XML/DC</a><a href="ekphrasis-tei.xml" class="cdwa p-2 ml-3">XML/TEI</a></p>     
+               </div>
+               <div class="col-md-2"></div>
+               <div class="col-md-4">
+                    <br>
+                    <br>
+                    <br>
+                    <h5>METADATI DI CONTENUTO &#40;TAGS&#41;</h5>
+                    <br>
+                    <br>
+                    <table class="py-3">
+                         <tr>
+                              <th>ENTITA'</th>
+                              <th>VALORI</th>
+                              <th>FORMA CONTROLLATA</th>
+                         </tr>
+                         <tr>
+                              <td>CONCETTI</td>
+                              <td>
+                                   <p><i class="bi bi-tag"></i>epica greca</p>
+                                   <p><i class="bi bi-tag"></i>rapsodia</p>
+                                   <p><i class="bi bi-tag"></i>arti figurative</p>
+                                   <p><i class="bi bi-tag"></i>ekphrasis</p> 
+                              </td>
+                              <td>
+                                   <p class="py-3"><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=21864" class="cdwa px-3">BNCF</a></p>
+                                   <p class="py-3"><a href="http://id.loc.gov/authorities/subjects/sh85113600" class="cdwa px-3">LCSH</a></p> 
+                                   <p class="py-3"><a href="https://thes.bncf.firenze.sbn.it/termine.php?id=2207" class="cdwa px-3">BNCF</a></p>
+                                   <p class="py-3"><a href="http://id.loc.gov/authorities/classification/cf97419806" class="cdwa px-3">LCSH</a></p>
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>OGGETTI</td>
+                              <td>
+                                   <p><i class="bi bi-tag"></i>Scudi in letteratura</p>
+                              </td>
+                              <td>
+                                   <p><a href="http://id.loc.gov/authorities/subjects/sh94009310" class="cdwa px-3">LCSH</a></p>
+                              </td>
+                         </tr>
+                         <tr>     
+                              <td>EVENTI</td>
+                              <td>
+                                   <p><i class="bi bi-tag"></i>Eracle contro Cicno</p>
+                              </td>
+                              <td>
+                                   <p><a href="http://id.loc.gov/authorities/classification/PA3015.R5H4" class="cdwa px-3">LCSH</a></p>
+                              </td>
+                         </tr>
+                         <tr>
+                              <td>LUOGHI</td>
+                              <td>
+                                   <p><i class="bi bi-tag"></i>Trachis, Tessaglia</p>
+                              </td>
+                              <td>
+                                   <p><a href="https://pleiades.stoa.org/places/541157" class="cdwa px-3">PLEIADES</a></p>
+                              </td>
+                         </tr>
+                    </table>
+               </div>
+               <div class="col-md-1"></div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <footer class="mt-0">
+               <div class="row foot">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 py-5">
+                         <ul class="no-lista">
+                              <li><h5>Ekphrasis</h5></li>
+                              <br>
+                              <li><i class="bi bi-person-circle"></i>  Progetto realizzato da <strong> Filippo Savi</strong></li>
+                              <br>
+                              <li><i class="bi bi-pc-display-horizontal"></i>  Corso di Digital Humanities, Università di Bologna, a.a 2021/2022</li>
+                              <br>
+                              <li><i class="bi bi-geo-alt"></i><a href="https://ficlit.unibo.it/it" target="blank" class="dipartimento">  Dipartimento di Filologia Classica e Italianistica, Bologna, via Zamboni 32</a></li>
+                         </ul>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-4 py-5">
+                         <ul class="no-lista">
+                              <li><h5>Contatti</h5></li>
+                              <br>
+                              <li><i class="bi bi-code-slash"></i>  codice del progetto : <a href="" class="dipartimento">url.blabla <i class="bi bi-github"></a></i></li>
+                              <br>
+                              <li><i class="bi bi-telephone"></i> Numero di Telefono :  555-932-2409</li>
+                              <br>
+                              <li><i class="bi bi-envelope-fill"></i> Mail : filippo.savi@studio.unibo.it</li>
+                              <br>
+                              <li>segui il progetto su instagram : <i class="bi bi-instagram"> Ekphrasis_project</i>                             
+                         </ul>
+                    </div>
+                    <div class="col-md-2"></div>
+               </div>
+          </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
