@@ -1,1 +1,2 @@
 # ekphrasis
+Il progetto, realizzato nell'ambito del corso di Digital Humanities (a.a 2021/2022) dell'Università di Bologna, si pone l'obiettivo di rendere osservabile il rapporto tra letteratura e arti figurative nella Grecia antica e medievale. L'ekphrasis, ovvero la tecnica discorsiva che permette di descrivere opere d'arte, è il simbolo di questo rapporto. Per questo, essa è stata scelta come punto di partenza per questa bozza di sito web.
