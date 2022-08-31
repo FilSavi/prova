@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oggetti xmlns:dcterms="http://purl.org/dc/terms/" xml:id="oggetti">
+    <item xml:id="Mac">
+        <metadata>
+            <dcterms:title>aryballos macmillan</dcterms:title>
+            <dcterms:creator>pittore dell'Olpe di Chigi</dcterms:creator>           
+            <dcterms:subject type="categoria">aryballos con testa leonina</dcterms:subject>
+            <dcterms:subject type="contenuto">guerra oplitica</dcterms:subject>            
+            <dcterms:description>rappresentazione decorativa di guerra oplitica su aryballos</dcterms:description>       
+            <dcterms:publisher>British Museum</dcterms:publisher>
+            <dcterms:date>640 a.C</dcterms:date>
+            <dcterms:type>oggetto d'uso quotidiano</dcterms:type>
+            <dcterms:identifier> British Museum n.1889,0418.1</dcterms:identifier>
+            <dcterms:identifier type="permalink">https://commons.wikimedia.org/w/index.php?title=File:Macmillan_aryballos_at_the_British_Museum_-_Denis_Bourez.jpg&amp;oldid=616672355</dcterms:identifier>
+            <dcterms:source>Wikimedia Commons</dcterms:source>
+            <dcterms:coverage>Italia</dcterms:coverage>
+        </metadata>
+    </item>
+</oggetti>

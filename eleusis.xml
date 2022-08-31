@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oggetti xmlns:dcterms="http://purl.org/dc/terms/" xml:id="oggetti">
+    <item xml:id="Ele">
+        <metadata>
+            <dcterms:title>anfora di Eleusi</dcterms:title>
+            <dcterms:creator>sconosciuto</dcterms:creator>           
+            <dcterms:subject type="categoria">anfora</dcterms:subject>
+            <dcterms:subject type="contenuto">Gorgoni e decapitazione di Medusa</dcterms:subject>            
+            <dcterms:description>rappresentazione decorativa di gruppo di Gorgoni e decapitazione di Medusa</dcterms:description>       
+            <dcterms:publisher>Museo Archeologico di Eleusi</dcterms:publisher>
+            <dcterms:date>650 a.C</dcterms:date>
+            <dcterms:type>anfora</dcterms:type>
+            <dcterms:identifier type="permalink">https://commons.wikimedia.org/w/index.php?title=File:Gorgons,_Proto-Attic_neck_amphora,_ca_650_BC,_AM_Eleusis,_Elem03.jpg&amp;oldid=500753893</dcterms:identifier>
+            <dcterms:source>Wikimedia Commons</dcterms:source>
+            <dcterms:coverage>Italia</dcterms:coverage>
+        </metadata>
+    </item>
+</oggetti>

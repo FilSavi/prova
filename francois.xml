@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oggetti xmlns:dcterms="http://purl.org/dc/terms/" xml:id="oggetti">
+    <item xml:id="Fr">
+        <metadata>
+            <dcterms:title>Vaso Fran&#231;ois</dcterms:title>
+            <dcterms:creator type="pittore">Kleitias</dcterms:creator>
+            <dcterms:creator type="vasaio">Ergotimos</dcterms:creator>          
+            <dcterms:subject type="categoria">Cratere</dcterms:subject>
+            <dcterms:subject type="contenuto">Centauromachia; Caccia al cinghiale Caledonio; giochi funebri per Patroclo; Achille all'inseguimento di Troilo; Teseo e Arianna; Efesto sull'Olimpo </dcterms:subject>                   
+            <dcterms:publisher>Museo Archeologico di Firenze</dcterms:publisher>
+            <dcterms:date>590-570 a.C</dcterms:date>
+            <dcterms:type>Cratere</dcterms:type>
+            <dcterms:identifier> Museo Archeologico Nazionale di Napoli n.5715</dcterms:identifier>
+            <dcterms:identifier type="permalink">https://commons.wikimedia.org/w/index.php?title=File:Vaso_Fran%C3%A7ois,_01.JPG&amp;oldid=448435413;</dcterms:identifier>
+            <dcterms:source>Wikimedia Commons</dcterms:source>
+            <dcterms:coverage>Italia</dcterms:coverage>
+        </metadata>
+    </item>
+</oggetti>

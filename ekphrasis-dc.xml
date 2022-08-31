@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testi xmlns:dcterms="http://purl.org/dc/terms/" xml:id="testi">
+    <item xml:id="Scudo-Eracle">
+        <metadata>
+            <dcterms:title xml:id="edizione">Scudo di Eracle</dcterms:title>
+            <dcterms:title xml:id="opera" xml:lang="grc">Ἀσπίς</dcterms:title>
+            <dcterms:IsPartOf xml:id="edizione">Esiodo, Opere</dcterms:IsPartOf>
+            <dcterms:creator xml:id="edizione">Graziano Arrighetti</dcterms:creator>
+            <dcterms:creator xml:id="opera">Pseudo-Esiodo</dcterms:creator>
+            <dcterms:subject xml:id="edizione" type="categoria">Traduzione; Commento</dcterms:subject>
+            <dcterms:subject xml:id="opera" type="categoria">Tradizione orale; Poesia epica greca; </dcterms:subject>
+            <dcterms:subject xml:id="opera" type="contenuto">Eroi; Eracle contro Cicno </dcterms:subject>            
+            <dcterms:description xml:id="edizione" xml:lang="it">Testo integrale, traduzione in italiano e commento di tutte le opere attribuite a Esiodo, preceduti da introduzione dell' autore su vita e opere di Esiodo.</dcterms:description>
+            <dcterms:description xml:id="opera" xml:lang="it">racconto epico dello scontro tra Eracle e Cicno ed Ares, incentrato sulla dettagliata descrizione dello scudo dell'eroe e delle sue fasce narrative</dcterms:description>       
+            <dcterms:publisher>Mondadori</dcterms:publisher>
+            <dcterms:created xml:id="edizione">1998</dcterms:created>
+            <dcterms:dateCopyrighted xml:id="edizione">2007</dcterms:dateCopyrighted>
+            <dcterms:date xml:id="opera">fine VII-prima metà VI secolo a.C</dcterms:date>
+            <dcterms:type>Poema epico; rapsodia</dcterms:type>
+            <dcterms:format id="edizione">libro cartaceo</dcterms:format>
+            <dcterms:identifier> ISBN : 978-88-04-57284-8</dcterms:identifier>
+            <dcterms:identifier type="permalink">http://id.sbn.it/bid/BVE0802303</dcterms:identifier>
+            <dcterms:source>Giulio Einaudi editore, s.p.a., Torino</dcterms:source>
+            <dcterms:language xml:id="edizione">greco antico; italiano</dcterms:language>
+            <dcterms:relation>ISBN : 88-446-0053-6</dcterms:relation>
+            <dcterms:coverage>Italia</dcterms:coverage>
+        </metadata>
+    </item>
+</testi>

@@ -1,0 +1,322 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+          <fileDesc>
+               <titleStmt>
+                    <title>HESIODUS, Scutum</title>
+                    <author xml:id="psE">pseudo-Esiodo</author>
+                    <respStmt>
+                         <name xml:id="TLGg">TLG &#40;Thesaurus Linguae Graecae&#41; Group</name>
+                         <resp>trascrizione</resp>
+                         <resp>marcatura</resp>
+                         <resp>lemmatizzazione</resp>
+                    </respStmt>
+                    <sponsor>University of California, Irvine</sponsor>
+                    <sponsor xml:id="Mac">Marianne McDonald</sponsor>
+                    <sponsor xml:id="Pac">The Packard Foundation</sponsor>
+                    <principal>Maria Pantelia &#40;Project Director&#41;</principal>
+               </titleStmt>
+               <publicationStmt>
+                    <publisher>TLG</publisher>
+                    <pubPlace>California</pubPlace>
+                    <idno type="ISBN">ISBN : 0198140711</idno>
+                    <date>2014</date>  
+               </publicationStmt>
+               <sourceDesc>
+                    <biblStruct>
+                         <monogr>
+                              <title>Hesiodi Theogonia ; Opera et dies ; Scutum</title>
+                              <author xml:id="E">Esiodo</author>
+                              <author xml:id="psE">pseudo-Esiodo</author>
+                              <editor xml:id="Sol">Friedrich Solmsen</editor>
+                              <editor xml:id="West">Martin West</editor>
+                              <editor xml:id="Mer">Reinhold Merkelbach</editor>
+                              <imprint>
+                                   <pubPlace>Oxford</pubPlace>
+                                   <publisher>Oxford Classical Texts</publisher>
+                                   <date>1990</date>
+                              </imprint>
+                              <extent>xxix</extent>
+                              <extent>246 p.</extent>
+                         </monogr>
+                    </biblStruct>
+               </sourceDesc>
+          </fileDesc>
+          <encodingDesc>
+               <projectDesc>
+                    <p>Forty-eight years after its establishment, the Thesaurus of the Greek Language is a reality. The TLG Digital Library contains virtually all Greek texts surviving from the period between Homer &#40;8 c. BC&#41; and the fall of Byzantium in A.D. 1453 and a large number of texts up to the 20th century. The TLG corpus is available in more than 2,000 universities and research centers around the world and used by thousands of researchers, educators, and students from a wide range of disciplines such as classics, archaeology, history, art, history, philosophy, linguistics, and theology/religious studies.</p>
+               </projectDesc>
+               <metDecl>
+                    <metSym value="x">elemento costituito da due morae, dunque sillaba lunga o due sillabe brevi</metSym>
+                    <metSym value="D">dattilo</metSym>
+               </metDecl>
+               <listPrefixDef>
+                    <prefixDef ident="grg" replacementPattern="style/gorgone.xml#GrgR"></prefixDef>
+                    <prefixDef ident="els" replacementPattern="style/eleusis.xml#Ele"></prefixDef>
+                    <prefixDef ident="mcm" replacementPattern="style/macmillan.xml#Mac"></prefixDef>
+                    <prefixDef ident="frc" replacementPattern="style/francois.xml#Fr"></prefixDef>
+               </listPrefixDef>
+
+          </encodingDesc>
+          <profileDesc>
+               <creation xml:id="opera">testo elettronico di un'edizione di un'opera formatasi tra la <date> fine del VII e l'inizio del VI secolo</date>in <name type="place">Grecia continentale</name></creation>
+               <langUsage>
+                    <language ident="grc">Greco antico</language>
+               </langUsage>
+               <textClass>
+                    <keywords>
+                         <item xml:id="categoria">Poesia greca arcaica</item>
+                         <item xml:id="contenuto">Ciclo di Eracle</item>
+                         <item xml:id="tecnica">ekphrasis</item>
+                    </keywords>
+                    <classCode scheme="#DDC">881.01</classCode>
+               </textClass>
+          </profileDesc>
+     </teiHeader>
+     <text xml:lang="grc">
+          <body>
+               <group id="Scudo-Eracle">
+                    <text>
+                      <div type="sezione" met="+x+x+x+x+xD/">
+                         <lg ana="#DecMat" type="subsezione">
+                              <l ana="Vest">   Χερσί γε μὴν σάκος εἷλε παναίολον, οὐδέ τις αὐτὸ</l>
+                              <l>οὔτ’ ἔρρηξε βαλὼν οὔτ’ ἔθλασε, θαῦμα ἰδέσθαι.    140</l>
+                              <l>πᾶν μὲν γὰρ κύκλῳ τιτάνῳ λευκῷ τ’ ἐλέφαντι</l>
+                              <l>ἠλέκτρῳ θ’ ὑπολαμπὲς ἔην χρυσῷ τε φαεινῷ</l>
+                              <l>λαμπόμενον, κυάνου δὲ διὰ πτύχες ἠλήλαντο.</l>
+                         </lg>
+                         <lg  ana="#Dec" type="subsezione">
+                              <l>   <seg ana="LocAdv Tr"> ἐν μέσσῳ</seg> δ’ ἀδάμαντος ἔην Φόβος οὔ τι φατειός,</l>
+                              <l>ἔμπαλιν ὄσσοισιν πυρὶ λαμπομένοισι δεδορκώς·    145</l>
+                              <l>τοῦ καὶ ὀδόντων μὲν πλῆτο στόμα λευκαθεόντων,</l>
+                              <l>δεινῶν, ἀπλήτων, ἐπὶ δὲ βλοσυροῖο μετώπου</l>
+                              <l>δεινὴ Ἔρις πεπότητο κορύσσουσα κλόνον ἀνδρῶν,</l>
+                              <l>σχετλίη, ἥ ῥα νόον τε καὶ ἐκ φρένας εἵλετο φωτῶν</l>
+                              <li>οἵτινες ἀντιβίην πόλεμον Διὸς υἷι φέροιεν.   150</li>            
+                              <l>τῶν καὶ ψυχαὶ μὲν χθόνα δύνουσ’ Ἄιδος εἴσω</l>
+                              <l>αὐτῶν, ὀστέα δέ σφι περὶ ῥινοῖο σαπείσης</l>
+                              <l>Σειρίου ἀζαλέοιο κελαινῇ πύθεται αἴῃ.</l>
+                         </lg>
+                         <lg ana="#Dec" type="subsezione" ref="mcm:Mac">
+                              <l>   <seg ana="LocAdv Tr">Ἐν δὲ</seg> Προΐωξίς τε Παλίωξίς τε τέτυκτο,</l>
+                              <l>ἐν δ’ Ὅμαδός τε Φόνος τ’ Ἀνδροκτασίη τε δεδήει,</l>   155
+                              <ref target="https://commons.wikimedia.org/wiki/File:Macmillan_aryballos_at_the_British_Museum_-_Denis_Bourez.jpg" type="res-ipsae">
+                              <l>ἐν δ’ Ἔρις, ἐν δὲ Κυδοιμὸς ἐθύνεον, ἐν δ’ ὀλοὴ Κὴρ</l>
+                              <l>ἄλλον ζωὸν ἔχουσα νεούτατον, ἄλλον ἄουτον,</l>
+                              <l>ἄλλον τεθνηῶτα κατὰ μόθον ἕλκε ποδοῖιν·</l>
+                              <l>εἷμα δ’ ἔχ’ ἀμφ’ ὤμοισι δαφοινεὸν αἵματι φωτῶν,</l>
+                              <l>δεινὸν δερκομένη καναχῇσί τε βεβρυχυῖα.   160</l>
+                              </ref>
+                         </lg>
+                         <lg ana="#Dec" type="subsezione" >
+                              <l>   <seg ana="LocAdv Tr">Ἐν</seg> δ’ ὀφίων κεφαλαὶ δεινῶν ἔσαν, οὔ τι φατειῶν,</l>
+                              <l>δώδεκα, ταὶ φοβέεσκον ἐπὶ χθονὶ φῦλ’ ἀνθρώπων</l>
+                              <l>οἵτινες ἀντιβίην πόλεμον Διὸς υἷι φέροιεν.</l>
+                              <l>τῶν καὶ ὀδόντων μὲν καναχὴ πέλεν, εὖτε μάχοιτο</l>
+                              <l>Ἀμφιτρυωνιάδης· τὰ δ’ ἐδαίετο θαυματὰ ἔργα·   165</l>
+                              <l>στίγματα δ’ ὣς ἐπέφαντο ἰδεῖν δεινοῖσι δράκουσι·</l>
+                              <l>κυάνεοι κατὰ νῶτα, μελάνθησαν δὲ γένεια.</l>
+                         </lg>
+                         <lg ana="#DecGen" type="subsezione">
+                              <l>   <seg ana="LocAdv Tr">Ἐν δὲ</seg> συῶν ἀγέλαι χλούνων ἔσαν ἠδὲ λεόντων</l>
+                              <l>ἐς σφέας δερκομένων, κοτεόντων θ’ ἱεμένων τε.</l>
+                              <l>τῶν καὶ ὁμιληδὸν στίχες ἤισαν, οὐδέ νυ τώ γε   170</l>
+                              <l>οὐδέτεροι τρεέτην, φρῖσσόν γε μὲν αὐχένας ἄμφω. </l>
+                              <l>ἤδη γάρ σφιν ἔκειτο μέγας λῖς, ἀμφὶ δὲ κάπροι</l>
+                              <l>δοιοί, ἀπουράμενοι ψυχάς· κατὰ δέ σφι κελαινὸν</l>
+                              <l>αἷμ’ ἀπελείβετ’ ἔραζ’· οἳ δ’ αὐχένας ἐξεριπόντες</l>
+                              <l>κείατο τεθνηῶτες ὑπὸ βλοσυροῖσι λέουσιν·   175</l>
+                              <l>τοὶ δ’ ἔτι μᾶλλον ἐγειρέσθην κοτέοντε μάχεσθαι,</l>
+                              <l>ἀμφότεροι, χλοῦναί τε σύες χαροποί τε λέοντες.</l>
+                         </lg>
+                         <lg ana="#DecMit" type="subsezione" ref="frc:#Fr">
+                              <l>   <seg ana="LocAdv Tr">Ἐν</seg> δ’ ἦν ὑσμίνη Λαπιθάων αἰχμητάων</l>
+                              <ref target="https://commons.wikimedia.org/wiki/File:Kleitias_-_ABV_77_1_-_compendium_of_Greek_mythology_-_Firenze_MAN_4209_-_37.jpg" type="res-ipsae">  
+                              <l>Καινέα τ’ ἀμφὶ ἄνακτα Δρύαντά τε Πειρίθοόν τε</l>
+                              <l>Ὁπλέα τ’ Ἐξάδιόν τε Φάληρόν τε Πρόλοχόν τε    180</l>
+                              <l>Μόψον τ’ Ἀμπυκίδην, Τιταρήσιον, ὄζον Ἄρηος</l>
+                              <l>Θησέα τ’ Αἰγεΐδην, ἐπιείκελον ἀθανάτοισιν·</l>
+                              <l>ἀργύρεοι, χρύσεια περὶ χροῒ τεύχε’ ἔχοντες.</l>
+                              <l>Κένταυροι δ’ ἑτέρωθεν ἐναντίοι ἠγερέθοντο</l>
+                              <l>ἀμφὶ μέγαν Πετραῖον ἰδ’ Ἄσβολον οἰωνιστὴν   185</l>
+                              <l>Ἄρκτον τ’ Οὔρειόν τε μελαγχαίτην τε Μίμαντα</l>
+                              <l>καὶ δύο Πευκεΐδας, Περιμήδεά τε Δρύαλόν τε,</l>
+                              <l>ἀργύρεοι, χρυσέας ἐλάτας ἐν χερσὶν ἔχοντες.</l>
+                              <l>καί τε συναΐγδην ὡς εἰ ζωοί περ ἐόντες</l>
+                              <l>ἔγχεσιν ἠδ’ ἐλάτῃς αὐτοσχεδὸν ὠριγνῶντο.   190</l>
+                              </ref>
+                         </lg>
+                         <lg ana="#Dec" type="subsezione">
+                              <l>   <seg ana="LocAdv Tr">Ἐν δ’</seg> Ἄρεος βλοσυροῖο ποδώκεες ἕστασαν ἵπποι</l>
+                              <l>χρύσεοι, ἐν δὲ καὶ αὐτὸς ἐναρσφόρος οὔλιος Ἄρης,</l>
+                              <l>αἰχμὴν ἐν χείρεσσιν ἔχων, πρυλέεσσι κελεύων,</l>
+                              <l>αἵματι φοινικόεις ὡς εἰ ζωοὺς ἐναρίζων,</l>
+                              <l>δίφρου ἐπεμβεβαώς· παρὰ δὲ Δεῖμός τε Φόβος τε    195</l>
+                              <l>ἕστασαν ἱέμενοι πόλεμον καταδύμεναι ἀνδρῶν.</l>
+                         </lg>
+                         <lg ana="#Dec" type="subsezione">
+                              <l>   <seg ana="LocAdv Tr">Ἐν δὲ</seg> Διὸς θυγάτηρ ἀγελείη Τριτογένεια,</l>
+                              <l>τῇ ἰκέλη ὡς εἴ τε μάχην ἐθέλουσα κορύσσειν,</l>
+                              <l>ἔγχος ἔχουσ’ ἐν χειρὶ χρυσέην τε τρυφάλειαν</l>
+                              <l>αἰγίδα τ’ ἀμφ’ ὤμοις· ἐπὶ δ’ ᾤχετο φύλοπιν αἰνήν.   200</l>
+                         </lg>
+                         <lg ana="#Dec" type="subsezione">
+                              <l>   <seg ana="LocAdv Tr">Ἐν δ’</seg> ἦν ἀθανάτων ἱερὸς χορός· ἐν δ’ ἄρα μέσσῳ</l>
+                              <l>ἱμερόεν κιθάριζε Διὸς καὶ Λητοῦς υἱὸς</l>
+                              <l>χρυσείῃ φόρμιγγι· θεῶν δ’ ἕδος ἁγνὸς Ὄλυμπος·</l>
+                              <l>ἐν δ’ ἀγορή, περὶ δ’ ὄλβος ἀπείριτος ἐστεφάνωτο</l>
+                              <l>ἀθανάτων ἐν ἀγῶνι· θεαὶ δ’ ἐξῆρχον ἀοιδῆς   205</l>
+                              <l>Μοῦσαι Πιερίδες, λιγὺ μελπομένῃς ἐικυῖαι.</l>
+                         </lg>
+                         <lg ana="#DecGen" type="subsezione">
+                              <l>   <seg ana="LocAdv Tr">Ἐν δὲ</seg> λιμὴν εὔορμος ἀμαιμακέτοιο θαλάσσης</l>
+                              <l>κυκλοτερὴς ἐτέτυκτο πανέφθου κασσιτέροιο</l>
+                              <l>κλυζομένῳ ἴκελος· πολλοί γε μὲν ἂμ μέσον αὐτοῦ</l>
+                              <l>δελφῖνες τῇ καὶ τῇ ἐθύνεον ἰχθυάοντες    210</l>
+                              <l>νηχομένοις ἴκελοι· δοιὼ δ’ ἀναφυσιόωντες</l>
+                              <l>ἀργύρεοι δελφῖνες ἐφοίβεον ἔλλοπας ἰχθῦς.</l>
+                              <l>τῶν δ’ ὕπο χάλκειοι τρέον ἰχθύες· αὐτὰρ ἐπ’ ἀκτῆς</l>
+                              <l>ἧστο ἀνὴρ ἁλιεὺς δεδοκημένος, εἶχε δὲ χερσὶν</l>
+                              <l>ἰχθύσιν ἀμφίβληστρον ἀπορρίψοντι ἐοικώς.   215</l>
+                         </lg>
+                         <lg ana="#DecMit" type="subsezione">
+                              <l>   <seg ana="LocAdv Tr">Ἐν δ’</seg> ἦν ἠυκόμου Δανάης τέκος, ἱππότα Περσεύς,</l>
+                              <l>οὔτ’ ἄρ’ ἐπιψαύων σάκεος ποσὶν οὔθ’ ἑκὰς αὐτοῦ,</l>
+                              <l>θαῦμα μέγα φράσσασθ’, ἐπεὶ οὐδαμῇ ἐστήρικτο.</l>
+                              <l>τὼς γάρ μιν παλάμαις τεῦξεν κλυτὸς Ἀμφιγυήεις,</l>
+                              <l>χρύσεον· ἀμφὶ δὲ ποσσὶν ἔχεν πτερόεντα πέδιλα·    220</l>
+                              <l>ὤμοισιν δέ μιν ἀμφὶ μελάνδετον ἆορ ἔκειτο</l>
+                              <l>χαλκέου ἐκ τελαμῶνος· ὃ δ’ ὥς τε νόημ’ ἐποτᾶτο·</l>
+                           <lg ref="grg:#GrgR">
+                              <l>πᾶν δὲ μετάφρενον εἶχε κάρη δεινοῖο πελώρου,</l>
+                              <l><ref target="https://upload.wikimedia.org/wikipedia/commons/8/88/Pettorale_di_cavallo_%28protosternopidion%29_con_gorgone%2C_515-500_ac.%2C_da_ruvo_di_puglia_%28MANN_inv._5715%29_01.JPG" type="res-ipsae opus-ipsum">Γοργοῦς</ref>· ἀμφὶ δέ μιν κίβισις θέε, θαῦμα ἰδέσθαι,</l>
+                              <l>ἀργυρέη· θύσανοι δὲ κατῃωρεῦντο φαεινοὶ   225</l>
+                              <l>χρύσειοι· δεινὴ δὲ περὶ κροτάφοισι ἄνακτος</l>
+                              <l>κεῖτ’ Ἄιδος κυνέη νυκτὸς ζόφον αἰνὸν ἔχουσα.</l>
+                              <l>αὐτὸς δὲ σπεύδοντι καὶ ἐρρίγοντι ἐοικὼς</l>
+                              <l>Περσεὺς Δαναΐδης ἐτιταίνετο· ταὶ δὲ μετ’ αὐτὸν</l>
+                           </lg>
+                         </lg>
+                           <lg ref="els:Ele">
+                              <l><ref target="https://commons.wikimedia.org/wiki/File:Gorgons,_Proto-Attic_neck_amphora,_ca_650_BC,_AM_Eleusis,_Elem03.jpg" type="res-ipsae">Γοργόνες ἄπλητοί τε καὶ οὐ φαταὶ ἐρρώοντο</ref>    230</l>
+                              <l>ἱέμεναι μαπέειν· ἐπὶ δὲ χλωροῦ ἀδάμαντος</l>
+                              <l>βαινουσέων ἰάχεσκε σάκος μεγάλῳ ὀρυμαγδῷ</l>
+                              <l>ὀξέα καὶ λιγέως· ἐπὶ δὲ ζώνῃσι δράκοντε</l>
+                              <l>δοιὼ ἀπῃωρεῦντ’ ἐπικυρτώοντε κάρηνα·</l>
+                              <l>λίχμαζον δ’ ἄρα τώ γε, μένει δ’ ἐχάρασσον ὀδόντας   235</l>
+                              <l>ἄγρια δερκομένω· ἐπὶ δὲ δεινοῖσι καρήνοις</l>
+                              <seg type="a">Γοργείοις ἐδονεῖτο μέγας φόβος.</seg>
+                         </lg>
+                         <lg ana="#DecGen" type="subsezione" ref="mcm:Mac"><seg type="b" ana="LocAdv Tr">οἳ δ’ ὑπὲρ</seg> αὐτέων
+                              <l>ἄνδρες ἐμαρνάσθην πολεμήια τεύχε’ ἔχοντες,</l>
+                              <l>τοὶ μὲν ὑπὲρ σφετέρης πόλιος σφετέρων τε τοκήων</l>
+                              <l>λοιγὸν ἀμύνοντες, τοὶ δὲ πραθέειν μεμαῶτες.   240</l>
+                              <l>πολλοὶ μὲν κέατο, πλέονες δ’ ἔτι δῆριν ἔχοντες</l>
+                              <l>μάρνανθ’. αἱ δὲ γυναῖκες ἐυδμήτων ἐπὶ πύργων</l> 
+                              <l>χαλκέων ὀξὺ βόων, κατὰ δ’ ἐδρύπτοντο παρειάς,</l>
+                              <l>ζωῇσιν ἴκελαι, ἔργα κλυτοῦ Ἡφαίστοιο.</l>
+                              <l>ἄνδρες δ’ οἳ πρεσβῆες ἔσαν γῆράς τε μέμαρπεν   245</l>
+                              <l>ἀθρόοι ἔκτοσθεν πυλέων ἔσαν, ἂν δὲ θεοῖσι</l>
+                              <l>χεῖρας ἔχον μακάρεσσι, περὶ σφετέροισι τέκεσσι</l>
+                              <l>δειδιότες· τοὶ δ’ αὖτε μάχην ἔχον. αἳ δὲ μετ’ αὐτοὺς</l>
+                              <l>Κῆρες κυάνεαι, λευκοὺς ἀραβεῦσαι ὀδόντας,</l>
+                              <l>δεινωποὶ βλοσυροί τε δαφοινοί τ’ ἄπλητοί τε    250</l>
+                              <l>δῆριν ἔχον περὶ πιπτόντων· πᾶσαι δ’ ἄρ’ ἵεντο</l>
+                              <l>αἷμα μέλαν πιέειν· ὃν δὲ πρῶτον μεμάποιεν</l>
+                              <l>κείμενον ἢ πίπτοντα νεούτατον, ἀμφὶ μὲν αὐτῷ</l>
+                              <l>βάλλον ὁμῶς ὄνυχας μεγάλους, ψυχὴ δὲ [Ἄιδόσδε] κατῇεν</l>
+                              <l>Τάρταρον ἐς κρυόενθ’· αἳ δὲ φρένας εὖτ’ ἀρέσαντο   255</l>
+                              <l>αἵματος ἀνδρομέου, τὸν μὲν ῥίπτασκον ὀπίσσω,</l>
+                              <l>ἂψ δ’ ὅμαδον καὶ μῶλον ἐθύνεον αὖτις ἰοῦσαι.</l>
+                              <l>Κλωθὼ καὶ Λάχεσίς σφιν ἐφέστασαν· ἣ μὲν ὑφήσσων</l>
+                              <l>Ἄτροπος οὔ τι πέλεν μεγάλη θεός, ἀλλ’ ἄρα ἥ γε</l>
+                              <l>τῶν γε μὲν ἀλλάων προφερής τ’ ἦν πρεσβυτάτη τε.    260</l>
+                              <l>πᾶσαι δ’ ἀμφ’ ἑνὶ φωτὶ μάχην δριμεῖαν ἔθεντο·</l>
+                              <l>δεινὰ δ’ ἐς ἀλλήλας δράκον ὄμμασι θυμήνασαι,</l>
+                              <l>ἐν δ’ ὄνυχας χεῖράς τε θρασείας ἰσώσαντο. </l>
+                              <l>πὰρ δ’ Ἀχλὺς εἱστήκει ἐπισμυγερή τε καὶ αἰνή,</l>
+                              <l>χλωρὴ ἀυσταλέη λιμῷ καταπεπτηυῖα,    265</l>
+                              <l>γουνοπαχής, μακροὶ δ’ ὄνυχες χείρεσσιν ὑπῆσαν·</l>
+                              <l>τῆς ἐκ μὲν ῥινῶν μύξαι ῥέον, ἐκ δὲ παρειῶν</l>
+                              <l>αἷμ’ ἀπελείβετ’ ἔραζ’· ἣ δ’ ἄπλητον σεσαρυῖα</l>
+                              <l>εἱστήκει, πολλὴ δὲ κόνις κατενήνοθεν ὤμους,</l>
+                              <seg type="a">δάκρυσι μυδαλέη.</seg>
+                         </lg>
+                         <lg ana="#DecGen" type="subsezione"><seg type="b" ana="LocAdv Tr"> παρὰ δ’ εὔπυργος πόλις ἀνδρῶν,</seg>    270
+                              <l>χρύσειαι δέ μιν εἶχον ὑπερθυρίοις ἀραρυῖαι</l>
+                              <l>ἑπτὰ πύλαι· τοὶ δ’ ἄνδρες ἐν ἀγλαΐαις τε χοροῖς τε</l>
+                              <seg type="a">τέρψιν ἔχον·</seg>
+                         </lg>
+                         <lg ana="#DecGen" type="subsezione"><seg type="b"> τοὶ μὲν γὰρ ἐυσσώτρου ἐπ’ ἀπήνης</seg>
+                              <l>ἤγοντ’ ἀνδρὶ γυναῖκα, πολὺς δ’ ὑμέναιος ὀρώρει·</l>
+                              <l>τῆλε δ’ ἀπ’ αἰθομένων δαΐδων σέλας εἰλύφαζε   275</l>
+                              <l>χερσὶν ἐνὶ δμῳῶν· ταὶ δ’ ἀγλαΐῃ τεθαλυῖαι</l>
+                              <l>πρόσθ’ ἔκιον, τῇσιν δὲ χοροὶ παίζοντες ἕποντο·</l>
+                              <l>τοὶ μὲν ὑπὸ λιγυρῶν συρίγγων ἵεσαν αὐδὴν</l>
+                              <l>ἐξ ἁπαλῶν στομάτων, περὶ δέ σφισιν ἄγνυτο ἠχώ·</l>
+                              <l>αἳ δ’ ὑπὸ φορμίγγων ἄναγον χορὸν ἱμερόεντα.    280</l>
+                              <l>ἔνθεν δ’ αὖθ’ ἑτέρωθε νέοι κώμαζον ὑπ’ αὐλοῦ.</l>
+                              <l>τοί γε μὲν αὖ παίζοντες ὑπ’ ὀρχηθμῷ καὶ ἀοιδῇ</l>
+                              <l>τοί γε μὲν αὖ γελόωντες ὑπ’ αὐλητῆρι ἕκαστος</l>
+                              <l>πρόσθ’ ἔκιον· πᾶσαν δὲ πόλιν θαλίαι τε χοροί τε</l>
+                              <l>ἀγλαΐαι τ’ εἶχον. τοὶ δ’ αὖ προπάροιθε πόληος    285</l>
+                              <l>νῶθ’ ἵππων ἐπιβάντες ἐθύνεον. οἱ δ’ ἀροτῆρες</l>
+                              <l>ἤρεικον χθόνα δῖαν, ἐπιστολάδην δὲ χιτῶνας</l>
+                              <l>ἐστάλατ’. αὐτὰρ ἔην βαθὺ λήιον· οἵ γε μὲν ἤμων</l>
+                              <l>αἰχμῇς ὀξείῃσι κορωνιόωντα πέτηλα</l>
+                              <l>βριθόμενα σταχύων, ὡς εἰ Δημήτερος ἀκτήν·    290</l>
+                              <l>οἳ δ’ ἄρ’ ἐν ἐλλεδανοῖσι δέον καὶ ἔπιτνον ἀλωῇ·</l>
+                              <l>οἳ δ’ ἐτρύγων οἴνας, δρεπάνας ἐν χερσὶν ἔχοντες·</l>
+                              <l>οἳ δ’ αὖτ’ ἐς ταλάρους ἐφόρευν ὑπὸ τρυγητήρων</l>
+                              <l>λευκοὺς καὶ μέλανας βότρυας μεγάλων ἀπὸ ὄρχων,</l>
+                              <l>βριθομένων φύλλοισι καὶ ἀργυρέῃς ἑλίκεσσιν.   295</l>
+                              <l>οἳ δ’ αὖτ’ ἐς ταλάρους ἐφόρευν. παρὰ δέ σφισιν ὄρχος</l>
+                              <l>χρύσεος ἦν, κλυτὰ ἔργα περίφρονος Ἡφαίστοιο,</l>
+                              <l>τοί γε μὲν αὖ παίζοντες ὑπ’ αὐλητῆρι ἕκαστος]</l>
+                              <l>σειόμενος φύλλοισι καὶ ἀργυρέῃσι κάμαξι,</l>
+                              <l>βριθόμενος σταφυλῇσι· μελάνθησάν γε μὲν αἵδε. 300</l>       
+                              <l>οἵ γε μὲν ἐτράπεον, τοὶ δ’ ἤρυον. οἳ δὲ μάχοντο</l>
+                              <l>πύξ τε καὶ ἑλκηδόν· τοὶ δ’ ὠκύποδας λαγὸς ᾕρευν</l>
+                              <l>ἄνδρες θηρευταί, καὶ καρχαρόδοντε κύνε πρό,</l>
+                              <l>ἱέμενοι μαπέειν, οἳ δ’ ἱέμενοι ὑπαλύξαι.</l>
+                              <l>πὰρ δ’ αὐτοῖς ἱππῆες ἔχον πόνον, ἀμφὶ δ’ ἀέθλῳ    305</l>
+                              <l>δῆριν ἔχον καὶ μόχθον· ἐυπλεκέων δ’ ἐπὶ δίφρων</l>
+                              <l>ἡνίοχοι βεβαῶτες ἐφίεσαν ὠκέας ἵππους</l>
+                              <l>ῥυτὰ χαλαίνοντες, τὰ δ’ ἐπικροτέοντα πέτοντο</l>
+                              <l>ἅρματα κολλήεντ’, ἐπὶ δὲ πλῆμναι μέγ’ ἀύτευν.</l>
+                              <l>οἳ μὲν ἄρ’ ἀίδιον εἶχον πόνον, οὐδέ ποτέ σφιν     310</l>
+                              <l>νίκη ἐπηνύσθη, ἀλλ’ ἄκριτον εἶχον ἄεθλον.</l>
+                              <l>τοῖσι δὲ καὶ προύκειτο μέγας τρίπος ἐντὸς ἀγῶνος,</l>
+                              <l>χρύσειος, κλυτὰ ἔργα περίφρονος Ἡφαίστοιο.</l>
+                         </lg>     
+                         <lg ana="#Dec" type="subsezione">
+                              <l>  <seg ana="LocAdv Tr">Ἀμφὶ δ’</seg> ἴτυν ῥέεν Ὠκεανὸς πλήθοντι ἐοικώς,</l>
+                              <l>πᾶν δὲ συνεῖχε σάκος πολυδαίδαλον· οἳ δὲ κατ’ αὐτὸν    315</l>
+                              <l>κύκνοι ἀερσιπόται μεγάλ’ ἤπυον, οἵ ῥά τε πολλοὶ</l>
+                              <l>νῆχον ἐπ’ ἄκρον ὕδωρ· παρὰ δ’ ἰχθύες ἐκλονέοντο·</l>
+                         </lg>     
+                         <lg ana="#DecMat" type="subsezione">
+                              <l>θαῦμα ἰδεῖν καὶ Ζηνὶ βαρυκτύπῳ, οὗ διὰ βουλὰς</l>
+                              <l> Ἥφαιστος ποίησε σάκος μέγα τε στιβαρόν τε,</l>
+                              <l>ἀρσάμενος παλάμῃσι. τὸ μὲν Διὸς ἄλκιμος υἱὸς   320</l>
+                              <l ana="Vest">πάλλεν ἐπικρατέως· ἐπὶ δ’ ἱππείου θόρε δίφρου,</l>
+                              <l>εἴκελος ἀστεροπῇ πατρὸς Διὸς αἰγιόχοιο,</l>
+                              <l ana="Vest">κοῦφα βιβάς· τῷ δ’ ἡνίοχος κρατερὸς Ἰόλαος</l>
+                              <l>δίφρου ἐπεμβεβαὼς ἰθύνετο καμπύλον ἅρμα.</l>
+                         </lg>
+                         <interpGrp resp="#FS" type="section-content">
+                              <interp xml:id="Dec">descrizione decorazione superficiale dello scudo</interp>
+                              <interp xml:id="DecMat">descrizione materiale decorazione superficiale dello scudo</interp>
+                              <interp xml:id="DecMit">narrazione mitologica su decorazione scudo</interp>
+                              <interp xml:id="DecGen">narrazione scena vita quotidiana su decorazione scudo</interp>
+                              <interp xml:id="Vest">azioni di vestizione preliminari a battaglia</interp>
+                         </interpGrp>
+                         <interpGrp resp="#FS" type="localization-indications">
+                              <interp xml:id="LocAdv">avverbio di posizione</interp>
+                              <interp xml:id="Tr">segnale di transizione a prossima sezione</interp>
+                         </interpGrp>
+                       </div>
+                    </text>
+               </group>
+          </body>
+     </text>
+</TEI>

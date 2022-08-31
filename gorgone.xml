@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oggetti xmlns:dcterms="http://purl.org/dc/terms/" xml:id="oggetti">
+    <item xml:id="GrgR">
+        <metadata>
+            <dcterms:title>prosternopidion con Gorgone da Ruvo</dcterms:title>
+            <dcterms:creator>sconosciuto</dcterms:creator>           
+            <dcterms:subject type="categoria">prosternopidion</dcterms:subject>
+            <dcterms:subject type="contenuto">testa di Gorgone </dcterms:subject>            
+            <dcterms:description>rappresentazione decorativa di testa di Gorgone su prosternopidion in bronzo e avorio</dcterms:description>       
+            <dcterms:publisher>Museo Archeologico di Napoli</dcterms:publisher>
+            <dcterms:date>VI secolo a.C</dcterms:date>
+            <dcterms:type>oggetto d'uso quotidiano</dcterms:type>
+            <dcterms:identifier> Museo Archeologico Nazionale di Napoli n.5715</dcterms:identifier>
+            <dcterms:identifier type="permalink">https://commons.wikimedia.org/w/index.php?title=File:Pettorale_di_cavallo_(protosternopidion)_con_gorgone,_515-500_ac.,_da_ruvo_di_puglia_(MANN_inv._5715)_01.JPG&amp;oldid=684103408</dcterms:identifier>
+            <dcterms:source>Wikimedia Commons</dcterms:source>
+            <dcterms:coverage>Italia</dcterms:coverage>
+        </metadata>
+    </item>
+</oggetti>
